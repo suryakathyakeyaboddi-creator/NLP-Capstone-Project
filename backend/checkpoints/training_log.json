@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "training_completed_at": "2026-11-20 04:30:30 UTC",
+  "total_epochs": 5,
+  "training_time_seconds": 23.95,
+  "learning_rate": 0.0005,
+  "checkpoints_saved": [
+    "tlstm.pt",
+    "gan_generator.pt",
+    "gan_discriminator.pt",
+    "rl_agent.pt"
+  ],
+  "final_metrics": {
+    "epoch": 5,
+    "discriminator_loss": 1.3715,
+    "generator_loss": 2.4549,
+    "rl_episode_reward": 0.5314,
+    "policy_entropy": 0.153,
+    "samples_processed": 3
+  },
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "discriminator_loss": 0.7322,
+      "generator_loss": 1.5131,
+      "rl_episode_reward": -0.21,
+      "policy_entropy": 0.3638,
+      "samples_processed": 3
+    },
+    {
+      "epoch": 2,
+      "discriminator_loss": 0.7023,
+      "generator_loss": 1.0873,
+      "rl_episode_reward": -0.0124,
+      "policy_entropy": 0.2584,
+      "samples_processed": 3
+    },
+    {
+      "epoch": 3,
+      "discriminator_loss": 0.7564,
+      "generator_loss": 1.0606,
+      "rl_episode_reward": -0.0655,
+      "policy_entropy": 0.2771,
+      "samples_processed": 3
+    },
+    {
+      "epoch": 4,
+      "discriminator_loss": 0.6619,
+      "generator_loss": 0.8755,
+      "rl_episode_reward": 0.4639,
+      "policy_entropy": 0.2888,
+      "samples_processed": 3
+    },
+    {
+      "epoch": 5,
+      "discriminator_loss": 1.3715,
+      "generator_loss": 2.4549,
+      "rl_episode_reward": 0.5314,
+      "policy_entropy": 0.153,
+      "samples_processed": 3
+    }
+  ]
+}
